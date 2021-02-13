@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/fd3cc022a6.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <title>Mi Portafolio</title>
+</head>
+<body>
+
+    <div class="contenedor">
+        <header>
+            <div class="logo">
+                <h1>>>> Angel Cascante</h1>
+                <p>Developer and problem solver</p>
+
+            </div>
+
+            <div class="categorias" id="categorias">
+                <a href="#" class="activo">All</a>
+                <a href="#">Skills</a>
+                <a href="#">Location</a>
+                <a href="#">Images</a>
+                <a href="#">Info</a>
+            </div>
+        </header>
+
+        <section class="grid" id="grid">
+
+            <div class="item" data-categoria="images" data-etiquetas="simbolo" data-descripcion="Libreta HTML">
+                <div class="item-contenido">
+                    <img src="img/html.png" width="175px" height="175px" alt="html">
+                </div>
+            </div>
+            <div class="item" data-categoria="images" data-etiquetas="simbolo" data-descripcion="Signo Python">
+                <div class="item-contenido">
+                    <img src="img/python.png" width="175px" height="175px" alt="python">
+                </div>
+            </div>
+            <div class="item" data-categoria="images" data-etiquetas="simbolo" data-descripcion="Pinguino Linux">
+                <div class="item-contenido">
+                    <img src="img/linux.png" width="175px" height="175px" alt="linux">
+                </div>
+            </div>
+            <div class="item" data-categoria="images" data-etiquetas="simbolo" data-descripcion="Libreta Css">
+                <div class="item-contenido">
+                    <img src="img/css.png" width="175px" height="175px" alt="css">
+                </div>
+            </div>
+
+            <section class="overlay" id="overlay">
+                <div class="contenedor-img">
+    
+                    <button id="btn-cerrar-popup"><i class="fas fa-times"></i></i></i></button>
+                    <img src="" alt="">
+    
+                </div>
+                <p class="descripcion"></p>
+    
+            </section>
+
+            <div class="item" data-categoria="skills" data-etiquetas="lista-ordenada" data-descripcion="habilidad">
+                <div class="item-contenido" id="habilidades">
+                    <ul>
+                        <li>Creation of applications with Python.</li>
+                    </ul>
+                    <ul>
+                        <li>Basic HTML, CSS and JS knowledge.</li>
+                    </ul>
+                    <ul>
+                        <li>Basic Linux O.S knowledge.</li>
+                    </ul>
+                    <ul>
+                        <li>Networking.</li>
+                    </ul>
+
+                </div>
+
+            </div> 
+
+            <div class="item" data-categoria="location" data-etiquetas="texto" data-descripcion="ubicacion">
+                <div class="item-contenido" id="ubicacion">
+                    <i class="fas fa-globe-americas"></i><h3>Costa rica, San Jose.</h3>
+                </div>
+
+            </div>
+
+            <div class="item" data-categoria="info" data-etiquetas="texto" data-descripcion="informacion">
+                <div class="item-contenido" id="informacion">
+                    <h3>Correo:</h3><br>
+                    <h3>cascanteangel5@gmail.com</h3><br>
+                    <p>Pagina creada por Angel Cascante. Todos los derechos reservados &copy;</p>
+                </div>
+            </div>
+
+
+        </section>
+
+        
+        <footer class="contenedor">
+            <div class="redes-sociales">
+                <div class="contenedor-icono">
+                    <a href="https://github.com/Qu4mz4" target="_blank" class="github">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </div>
+                <div class="contenedor-icono">
+                    <a href="https://www.linkedin.com/in/angel-cc" target="_blank" class="linkedin">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                </div>
+                <div class="contenedor-icono">
+                    <a href="https://es.stackoverflow.com/users/207645/angel-c" target="_blank" class="stackoverflow">
+                        <i class="fab fa-stack-overflow"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="creado-por"></div>
+
+    
+        </footer>
+        
+
+
+
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/web-animations-js@2.3.2/web-animations.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/muuri@0.9.3/dist/muuri.min.js"></script>
+    <script src="js/ani.js"></script>
+
+</body>
+</html>
