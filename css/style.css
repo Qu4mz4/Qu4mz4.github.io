@@ -6,7 +6,7 @@
 }
 
 body {
-    background-color: rgb(238, 212, 212);
+    background-color: white;
     font-family: 'Roboto Mono', monospace;
 
 }
@@ -103,18 +103,12 @@ GRID
 
 }
 
-.grid .item #ubicacion i {
-    position: absolute;
-    left: 370px;
-    bottom: 30px;
-}
-
-.grid .item #ubicacion h3 {
+.grid .item #ubicacion {
     position: relative;
-    left: 270px;
-    bottom: -10px;
-}
+    text-align: center;
+    left: 275px;
 
+}
 
 /*
 
