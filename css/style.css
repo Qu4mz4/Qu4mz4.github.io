@@ -103,11 +103,15 @@ GRID
 
 }
 
-.grid .item #ubicacion {
-    position: relative;
+.grid .item #about {
     text-align: center;
-    left: 275px;
+}
 
+.grid .item #contact {
+    text-align: center;
+    position: relative;
+    left: 150px;
+    border-bottom: 3px solid gray;
 }
 
 /*
